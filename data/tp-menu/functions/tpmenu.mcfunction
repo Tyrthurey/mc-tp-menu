@@ -105,7 +105,7 @@ execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 4 run score
 execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 5 run scoreboard players set @s tyr.used.slot 6
 execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 6 run scoreboard players set @s tyr.used.slot 7
 execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 7 run scoreboard players set @s tyr.used.slot 8
-# execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 8 run scoreboard players set @s tyr.used.slot 9
+execute as @a[tag=user] if score @p[tag=user] tyr.slctd.slot matches 8 run scoreboard players set @s tyr.used.slot 9
 
 #Slots are counted
 execute as @a[tag=user2] store result score @s tyr.slctd.slot run data get entity @s SelectedItemSlot
@@ -118,7 +118,7 @@ execute as @a[tag=user2] if score @p[tag=user2] tyr.slctd.slot matches 4 run sco
 execute as @a[tag=user2] if score @p[tag=user2] tyr.slctd.slot matches 5 run scoreboard players set @s tyr.used.slot 6
 execute as @a[tag=user2] if score @p[tag=user2] tyr.slctd.slot matches 6 run scoreboard players set @s tyr.used.slot 7
 execute as @a[tag=user2] if score @p[tag=user2] tyr.slctd.slot matches 7 run scoreboard players set @s tyr.used.slot 8
-# execute as @a[tag=user2] if score @p[tag=user2] tyr.slctd.slot matches 8 run scoreboard players set @s tyr.used.slot 9
+execute as @a[tag=user2] if score @p[tag=user2] tyr.slctd.slot matches 8 run scoreboard players set @s tyr.used.slot 9
 
 #Slots are counted
 execute as @a[tag=user3] store result score @s tyr.slctd.slot run data get entity @s SelectedItemSlot
@@ -131,7 +131,7 @@ execute as @a[tag=user3] if score @p[tag=user3] tyr.slctd.slot matches 4 run sco
 execute as @a[tag=user3] if score @p[tag=user3] tyr.slctd.slot matches 5 run scoreboard players set @s tyr.used.slot 6
 execute as @a[tag=user3] if score @p[tag=user3] tyr.slctd.slot matches 6 run scoreboard players set @s tyr.used.slot 7
 execute as @a[tag=user3] if score @p[tag=user3] tyr.slctd.slot matches 7 run scoreboard players set @s tyr.used.slot 8
-# execute as @a[tag=user3] if score @p[tag=user3] tyr.slctd.slot matches 8 run scoreboard players set @s tyr.used.slot 9
+execute as @a[tag=user3] if score @p[tag=user3] tyr.slctd.slot matches 8 run scoreboard players set @s tyr.used.slot 9
 
 
 #Teleportio! user
@@ -216,15 +216,15 @@ execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholde
 execute as @a[tag=user] if score @s tyr.used.slot matches 8 at @e[tag=placeholder] run tp @e[tag=test7] ^2 ^ ^-2 facing ~ ~ ~
 
 
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=spawn] ^2.5 ^0.5 ^ facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=shops] ^2 ^ ^2 facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test3] ^ ^ ^2.5 facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test4] ^-2 ^ ^2 facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test5] ^-2.5 ^ ^ facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test6] ^-2 ^ ^-2 facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test7] ^ ^ ^-2.5 facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test8] ^2 ^ ^-2 facing ~ ~ ~
-# execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test9] ^2.5 ^ ^ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=spawn] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=shops] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test4] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test5] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test6] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test7] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test8] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user] if score @s tyr.used.slot matches 9 at @e[tag=placeholder] run tp @e[tag=test9] ~ ~ ~ facing ~ ~ ~
 
 
 #Teleportio! user2
@@ -309,15 +309,15 @@ execute as @a[tag=user2] if score @s tyr.used.slot matches 8 at @e[tag=placehold
 execute as @a[tag=user2] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ^2 ^ ^-2 facing ~ ~ ~
 
 
-# execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=spawn-2] ^2.5 ^0.5 ^ facing ~ ~ ~
-# execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=shops-2] ^2 ^ ^2 facing ~ ~ ~
-# execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test3-2] ^ ^ ^2.5 facing ~ ~ ~
-# execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test4-2] ^-2 ^ ^2 facing ~ ~ ~
-# execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test5-2] ^-2.5 ^ ^ facing ~ ~ ~
-# execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ^-2 ^ ^-2 facing ~ ~ ~
-# execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ^ ^ ^-2.5 facing ~ ~ ~
-# execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ^2 ^ ^-2 facing ~ ~ ~
-# execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test9-2] ^2.5 ^ ^ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=spawn-2] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=shops-2] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test3-2] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test4-2] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test5-2] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test6-2] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test7-2] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test8-2] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user2] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-2] run tp @e[tag=test9-2] ~ ~ ~ facing ~ ~ ~
 
 
 #Teleportio! user3
@@ -402,66 +402,67 @@ execute as @a[tag=user3] if score @s tyr.used.slot matches 8 at @e[tag=placehold
 execute as @a[tag=user3] if score @s tyr.used.slot matches 8 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ^2 ^ ^-2 facing ~ ~ ~
 
 
-# execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=spawn-3] ^2.5 ^0.5 ^ facing ~ ~ ~
-# execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=shops-3] ^2 ^ ^2 facing ~ ~ ~
-# execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test3-3] ^ ^ ^2.5 facing ~ ~ ~
-# execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test4-3] ^-2 ^ ^2 facing ~ ~ ~
-# execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test5-3] ^-2.5 ^ ^ facing ~ ~ ~
-# execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ^-2 ^ ^-2 facing ~ ~ ~
-# execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ^ ^ ^-2.5 facing ~ ~ ~
-# execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ^2 ^ ^-2 facing ~ ~ ~
-# execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test9-3] ^2.5 ^ ^ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=spawn-3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=shops-3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test3-3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test4-3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test6-3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test5-3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test7-3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test8-3] ~ ~ ~ facing ~ ~ ~
+execute as @a[tag=user3] if score @s tyr.used.slot matches 9 at @e[tag=placeholder-3] run tp @e[tag=test9-3] ~ ~ ~ facing ~ ~ ~
+
 
 
 #Spawn tp
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
 
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 2 run msg @s Teleported to Shops!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 3 run say Test3 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 4 run say Test4 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 7 run say Test7 command activated!
-execute as @a[tag=user,scores={SneakTime=10}] if score @p[tag=user] tyr.used.slot matches 8 run say Test8 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 4 run say Test4 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 5 run say Test5 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 6 run say Test6 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 7 run say Test7 command activated!
+execute as @a[tag=user,scores={SneakTime=16}] if score @p[tag=user] tyr.used.slot matches 8 run say Test8 command activated!
 
-execute as @a[tag=user] if score @p[tag=user] SneakTime matches 10.. run scoreboard players set @s SneakTime 0
+execute as @a[tag=user] if score @p[tag=user] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
 
 #Spawn tp user2
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
 
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 2 run msg @s Teleported to Shops!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 3 run say Test3 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 4 run say Test4 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 7 run say Test7 command activated!
-execute as @a[tag=user2,scores={SneakTime=10}] if score @p[tag=user2] tyr.used.slot matches 8 run say Test8 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 4 run say Test4 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 5 run say Test5 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 6 run say Test6 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 7 run say Test7 command activated!
+execute as @a[tag=user2,scores={SneakTime=16}] if score @p[tag=user2] tyr.used.slot matches 8 run say Test8 command activated!
 
-execute as @a[tag=user2] if score @p[tag=user2] SneakTime matches 10.. run scoreboard players set @s SneakTime 0
+execute as @a[tag=user2] if score @p[tag=user2] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
 
 #Spawn tp user3
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 1 run tp @s -195 66 -34 180 11
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 1 run msg @s Teleported to Spawn!
 
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 2 run msg @s Teleported to Shops!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 2 run tp @s -195 -60 -34 -90 4
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 2 run msg @s Teleported to Shops!
 
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 3 run say Test3 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 4 run say Test4 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 5 run say Test5 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 6 run say Test6 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 7 run say Test7 command activated!
-execute as @a[tag=user3,scores={SneakTime=10}] if score @p[tag=user3] tyr.used.slot matches 8 run say Test8 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 3 run say Test3 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 4 run say Test4 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 5 run say Test5 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 6 run say Test6 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 7 run say Test7 command activated!
+execute as @a[tag=user3,scores={SneakTime=16}] if score @p[tag=user3] tyr.used.slot matches 8 run say Test8 command activated!
 
-execute as @a[tag=user3] if score @p[tag=user3] SneakTime matches 10.. run scoreboard players set @s SneakTime 0
+execute as @a[tag=user3] if score @p[tag=user3] SneakTime matches 16.. run scoreboard players set @s SneakTime 0
 
 
 
