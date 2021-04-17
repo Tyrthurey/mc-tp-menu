@@ -2,4 +2,10 @@ scoreboard objectives add tyr.spawn.limit dummy
 scoreboard objectives add tyr.slctd.slot dummy
 scoreboard objectives add tyr.used.slot dummy
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time
-say Execute ""/function tp-menu:tpmenu-key" to get the key. Then put it into your offhand.
+scoreboard objectives add tyr.uuid dummy
+scoreboard objectives add tyr.warp.pos.x dummy
+scoreboard objectives add tyr.warp.pos.y dummy
+scoreboard objectives add tyr.warp.pos.z dummy
+scoreboard objectives add tyr.warp.pos.dim dummy
+scoreboard objectives add tyr.set.warp dummy
+scoreboard objectives add tyr.warp dummy
